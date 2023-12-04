@@ -1,0 +1,394 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+
+}
+
+main{
+margin-top: -3vh; /* Adjust this value based on your header height */
+
+}
+header{
+background: transparent;
+text-align: center;
+padding-top: 3px;
+justify-content: center;
+height: 17vh;
+margin-left: 0vh;
+
+}
+.navbar{
+display: flex;
+margin-top: -6vh;
+margin-left: 7vh;
+
+
+}
+.navbar1{
+margin-top: -5vh;
+margin-left: 155vh;
+display: flex;
+}
+.navbar1 a{
+margin: 20px;
+justify-content: center;
+text-decoration: none;
+color: #666666;
+font-weight: bold;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+
+}
+.navbar1 a:hover{
+text-decoration: underline 2px solid #1c69d4;
+transition: .5s;
+}
+
+ul{
+list-style: none;
+}
+.navbar a{
+margin: 10px;
+justify-content: center;
+text-decoration: none;
+color: #666666;
+font-weight: bold;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+margin-left: 100px;
+
+}
+.navbar a:hover{
+text-decoration: underline 2px solid #1c69d4;
+transition: .5s;
+}
+header .header-content > a > img {
+display: flex;
+height: auto;
+width: 60px;
+margin-left: 70px;
+margin-top: 10px;
+}
+
+.car10 {
+position: relative;
+}
+
+.car10 .image-container {
+position: relative;
+overflow: hidden;
+}
+
+.car10 .main-image {
+width: 210vh;
+height: 80vh;
+display: block;
+object-fit: cover; /* Ensures the video maintains its aspect ratio and covers the entire container */
+
+}
+
+.car10 .gradient-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.car10 h2,
+.car10 h3{
+position: absolute;
+color: white; /* Adjust text color as needed */
+}
+
+.car10 h2 {
+top: 20%;
+left: 17%;
+transform: translate(-50%, -50%);
+font-family: 'Alegreya Sans SC', sans-serif;
+font-weight: BOLD;
+word-spacing: 5px;
+font-size: 4rem;
+}
+
+.car10 h3 {
+position: absolute;
+top: 35%;
+left: 17%;
+transform: translateX(-50%);
+font-family: 'Alegreya Sans SC', sans-serif;
+font-weight: 100;
+font-size: 29px;
+width: 25%;
+}
+.heading{
+font-family: 'Alegreya Sans SC', sans-serif;
+font-weight: 100;
+}
+.heading{
+text-align: center;
+font-weight: 100;
+font-size: 28px;
+}
+
+.information {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 10;
+    margin-top: 10vh;
+display: flex;
+flex-direction: column; /* Arrange the divs vertically */
+margin-left: 20vh;
+margin-right: 20vh;
+}
+.information > hr{
+    width: 100%;
+    margin: 10px 0;
+    border: 0;
+    border-bottom: 0.5px solid #ccc;
+}
+
+.information div {
+display: flex;
+flex-direction: row; /* Arrange h1, h2, and p horizontally within each div */
+justify-content: space-between; /* Distribute space equally between h1, h2, and p */
+margin-bottom: 40px; /* Adjust this value to control the space between divs */
+
+}
+
+.information div h1,
+.information div h2,
+.information div h3 {
+flex: 1; /* Allow each element to take equal space */
+margin-right: 10px; /* Adjust this value to control the space between h1, h2, and p */
+}
+.information01 h3,
+.information03 h3{
+    color: #1c69d4;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.productheading{
+    background-color: #a7b2b7;
+    padding: 25px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+.modles-718 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 1px;
+}
+
+.car-container {
+    width: 100%; /* Each car container takes up the full width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly along the row */
+    align-items: center;
+    margin-bottom: 20px; /* Add margin for spacing between rows */
+}
+
+.car-item {
+    width: 100%; /* Each car item takes up 30% of the width within the car container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    text-align: center; /* Center the text */
+}
+
+.car-image {
+    width: 100%; /* Each image takes up 100% of the width within the car item */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    max-width: 300px; /* Set a maximum width for the images */
+    margin-bottom: 10px; /* Add margin for spacing between images and headings */
+}
+
+h4 {
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    margin: 0px 0; /* Add some margin for spacing */
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #0e0e0e;
+
+}
+h4:hover{
+    color: #1c69d4;
+    transition: .5s;
+    text-decoration: underline #1c69d4 2px;
+}
+
+.carmodelsheading{
+    color: #0e0e0e;
+    font-family: 'Neuton', serif;
+    font-size: 50px;
+    margin-left: 20vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.carmodelsheading:hover{
+    color: #1c69d4;
+    transition: .5s;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.models-718 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.car-card {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.car-card:hover {
+    transform: scale(1.05);
+}
+
+.car-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+margin: 10px;
+background-color: #f6f6f6;
+color: #262626;
+padding: 40px 0;
+font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
+
+.footer-menu {
+flex: 1;
+}
+
+.footer-menu h4 {
+font-size: 15px;
+font-weight: 100;
+}
+
+.footer-menu ul {
+list-style-type: none;
+padding: 0 ;
+}
+
+.footer-menu li {
+margin-bottom: 5px;
+margin-top: 20px;
+
+}
+
+.footer-menu a {
+color: #464646;
+text-decoration: none;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+
+}
+
+.footer-menu a:hover {
+color: #020202;
+}
+.social-icons  {
+margin-top: 50px;
+margin-left: 17vh;
+
+}
+.social-icons a {
+display: inline-block;
+margin: 0 10px;
+}
+
+.social-icons img {
+width: 30px; /* Adjust the size as needed */
+height: 30px;
+}
+footer p{
+text-align: center;
+font-size: 30px;
+}
